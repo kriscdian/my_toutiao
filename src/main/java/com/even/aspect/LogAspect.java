@@ -27,6 +27,6 @@ public class LogAspect {
 
     @After("execution(* com.even.controller.IndexController.*(..))")
     public void afterMethod(JoinPoint joinPoint) {
-        logger.info("after method: ");
+        logger.info("after method:  ");
     }
 }
